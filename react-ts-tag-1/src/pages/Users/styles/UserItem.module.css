@@ -1,0 +1,12 @@
+.userItem {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    box-shadow: 2px 2px;
+    padding: 10px 0;
+    margin: 10px 0;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
