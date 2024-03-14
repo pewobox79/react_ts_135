@@ -5,7 +5,7 @@ const MainLayout = () => {
     return (
         <div>
             <Header />
-            <Outlet />
+                <Outlet /> {/** equivalent zu {children} bei React */}
             <Footer />
         </div>
     )

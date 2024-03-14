@@ -1,4 +1,3 @@
-
 export default function TextBlock({ title, data, text }) {
 
     //Destructor Object als alternative zu direkter Destrukturierung
