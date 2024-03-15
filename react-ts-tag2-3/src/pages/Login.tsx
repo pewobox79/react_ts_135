@@ -1,3 +1,4 @@
+import LoginForm from "@/components/LoginForm";
 import { useState } from "react"
 
 const Login = () => {
@@ -37,6 +38,8 @@ const Login = () => {
                 <button type="submit">Login</button>
             </form>
 
+            {/* alternatives State management forms*/}
+            <LoginForm/>
         </div>
     )
 }
