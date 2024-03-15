@@ -1,6 +1,23 @@
-ALIAS SOURCE SETUP
+vite frontend tooling
+https://vitejs.dev/
+
+ALIAS SOURCE SETUP in Vite
 https://dev.to/avxkim/setup-path-aliases-w-react-vite-ts-poa
 
 Formik
 https://formik.org/docs/overview
+
+Protected Routes
+https://www.robinwieruch.de/react-router-private-routes/
+
+JSON Placeholder
+https://jsonplaceholder.typicode.com/guide/
+
+React-Bootstrap
+https://react-bootstrap.netlify.app/docs/getting-started/introduction/
+
+CSS-Shadow boxes
+https://getcssscan.com/css-box-shadow-examples
+
+
 

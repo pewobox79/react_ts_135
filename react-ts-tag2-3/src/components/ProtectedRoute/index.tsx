@@ -31,10 +31,10 @@ const ProtectedRoute = ({ children, user }: { children: React.ReactElement, user
 
     }, [])
 
-    if (!loggedUser) {
+    /* if (!loggedUser) {
         console.log("redirect")
         return <Navigate to="/login" replace />
-    }
+    } */
 
     return children
 }

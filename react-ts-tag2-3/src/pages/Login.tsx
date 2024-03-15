@@ -1,4 +1,5 @@
 import LoginForm from "@/components/LoginForm";
+import { useLocalStorage } from "@/hooks/useLocalStorage";
 import { useState } from "react"
 
 const Login = () => {
@@ -14,9 +15,17 @@ const Login = () => {
 
     console.log("updated User", user)
 
+    const localStore = useLocalStorage("newUser", {})
+    console.log("useLocal", localStore)
     function handleSubmit(e: any) {
         e.preventDefault();
         console.log("submitted Data", user)
+
+
+        localStore.setStoredValue(user)
+
+
+
         setUser(INITVALUES)
     }
 
@@ -37,9 +46,12 @@ const Login = () => {
                 <input id="email" type="email" name="email" value={user.email} onChange={handleChange} /><br />
                 <button type="submit">Login</button>
             </form>
+            <button onClick={()=> {
+                localStore.removeUser()
 
+            } }>remove item</button>
             {/* alternatives State management forms*/}
-            <LoginForm/>
+            <LoginForm />
         </div>
     )
 }
