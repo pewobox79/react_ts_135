@@ -5,6 +5,14 @@
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
     "module": "ESNext",
     "skipLibCheck": true,
+    
+    /* start config für ALIAS usage*/
+    "types": ["node"],
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    /* end config für ALIAS usage*/
+
 
     /* Bundler mode */
     "moduleResolution": "bundler",
